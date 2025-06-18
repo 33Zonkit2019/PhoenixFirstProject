@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainCalc">
+        <div>
+            <input class="inpMath" id="inpCalc">
+        </div>
+        <div class="divSmallCube">
+            <button class="smallBtn" id="AC" onclick="delEquation()">AC</button>
+            <button class="smallBtn" id=""></button>
+            <button class="smallBtn" id=""></button>
+            <button class="smallBtn" id="/" onclick="equation('/')">/</button>
+        </div>
+        <div class="divSmallCube">
+            <button class="smallBtn" id="7" onclick="equation(7)">7</button>
+            <button class="smallBtn" id="8" onclick="equation(8)">8</button>
+            <button class="smallBtn" id="9" onclick="equation(9)">9</button>
+            <button class="smallBtn" id="*" onclick="equation('*')">*</button>
+        </div>
+        <div class="divSmallCube">
+            <button class="smallBtn" id="4" onclick="equation(4)">4</button>
+            <button class="smallBtn" id="5" onclick="equation(5)">5</button>
+            <button class="smallBtn" id="6" onclick="equation(6)">6</button>
+            <button class="smallBtn" id="-" onclick="equation('-')">-</button>
+        </div>
+        <div class="divSmallCube">
+            <button class="smallBtn" id="1" onclick="equation(1)">1</button>
+            <button class="smallBtn" id="2" onclick="equation(2)">2</button>
+            <button class="smallBtn" id="3" onclick="equation(3)">3</button>
+            <button class="smallBtn" id="+" onclick="equation('+')">+</button>
+        </div>
+        <div class="divSmallCube">
+            <button class="smallZeroBtn" id="0" onclick="equation(0)">0</button>
+            <button class="smallBtn" id="." onclick="equation('.')">.</button>
+            <button class="smallBtn" id="=" onclick="equal()">=</button>
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.mainCalc{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 340px;
+    height: 500px;
+    margin-left: 40%;
+    margin-top: 7%;
+    border: 2px solid black;
+    background-color: black;
+}
+.divSmallCube{
+    display: flex;
+    margin-top: 3px;
+    gap: 6px;
+    background-color: black;
+}
+.smallBtn{
+    background-color: rgb(160, 160, 160);
+    height: 70px;
+    width: 70px;
+}
+.smallZeroBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 147px;
+    background-color: rgb(160, 160, 160);
+}
+.inpMath{
+    width: 290px;
+    height: 60px;
+    margin-bottom: 17px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(179, 124, 42);
+}
